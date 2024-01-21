@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'allauth',
     'allauth.account',
     'allauth.socialaccount',
+    'home',
 ]
 
 MIDDLEWARE = [
@@ -58,7 +59,10 @@ ROOT_URLCONF = 'tech_store.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [
+            os.path.join(BASE_DIR, 'templates'),#add the root templates directory to the DIRS settings
+            os.path.join(BASE_DIR, 'templates', 'allauth'),#add the custom allauth directory to the DIRS settings
+        ],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
