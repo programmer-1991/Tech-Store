@@ -26,7 +26,7 @@ SECRET_KEY = '0'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['tech-store.herokuapp.com', '8000-programmer-1991-tech-sto-vn9ghx5gto.us2.codeanyapp.com']
+ALLOWED_HOSTS = ['tech-store-dd2f1f0f1bd6.herokuapp.com', '8000-programmer-1991-tech-sto-vn9ghx5gto.us2.codeanyapp.com']
 
 
 # Application definition
