@@ -1,7 +1,8 @@
-html{
+html {
     height: 100%;
 }
-body{
+
+body {
     height: calc(100vh - 10.5em);
     color: #444;
     font-family: Roboto;
@@ -14,4 +15,12 @@ body{
     justify-content: center;
     height: 1.5rem;
     width: 1.5rem;
+}
+
+.logo-font {
+    text-transform: uppercase;
+}
+
+.main-logo-link {
+    width: fit-content;
 }
